@@ -1,4 +1,8 @@
+import CopyButton from "./CopyButton"
+
 function Footer() {
+  const telefon = "+381 068 9978960";
+  const email = "doctorfood22@gmail.com";
     return (
       <div>
 
@@ -8,10 +12,12 @@ function Footer() {
     color: "white", padding: "25px", textAlign: "center"}}>
                 © 2022 Copyright: DOCTOR FOOD D.O.O.
                 <a className="text-reset fw-bold" href="" style = {{margin: "25px", pointerEvents: "none"}}>
-                    Kontakt telefon: +381 068 9978960
+                    Kontakt telefon: {telefon}
+                    
                 </a>
                 <a className="text-reset fw-bold" href="" style = {{margin: "25px", pointerEvents: "none"}}>
-                    Email: doctorfood22@gmail.com
+                    Email: {email}
+                
                 </a>
             </div> 
         </footer> 

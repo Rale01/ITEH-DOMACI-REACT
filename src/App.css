@@ -194,7 +194,7 @@ h4{
     background-color: transparent;
   }
   .row{
-    padding: 3%;
+    padding: 2%;
     display: flex;
     flex-wrap: flex;
     justify-content: space-between;
@@ -254,6 +254,55 @@ h4{
     padding-bottom: 100px;
 
   }
+  .omiljeni{
+    background-image: url("https://img.freepik.com/premium-photo/tartar-with-salmon-avocado-wooden-background-top-view-copy-space_187166-20047.jpg?w=740");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-left: 72px;
+    
+
+  }
+  .btn:hover{
+  cursor: pointer;
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #54b3d6;;
+  }
+
+  .btn:focus{
+    background-color: lightgreen;
+  }
+
+  .dugme-kopiranje{
+    background: rgb(43,41,78);
+    background: linear-gradient(90deg, rgba(43,41,78,1) 0%, rgba(95,144,150,1) 35%, rgba(186,216,222,1) 100%);
+    color: white; 
+    text-align: center;
+    margin-right: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 15px;
+  }
+
+  .dugme-kopiranje:hover{
+    cursor: pointer;
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #54b3d6;;
+  }
+  
+  .kontejner{
+    background: rgb(43,41,78);
+    background: linear-gradient(90deg, rgba(43,41,78,1) 0%, rgba(95,144,150,1) 35%, rgba(186,216,222,1) 100%); 
+    display:-ms-inline-grid;
+    justify-content: space-evenly;
+    padding-left: 650px;
+    
+  }
+
 
   
 

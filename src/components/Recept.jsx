@@ -12,7 +12,7 @@ function Recept({rec, dodaj,mod,izbaci}) {
             style = {{border:"rgb(76, 131, 204)", borderStyle: "double", fontSize: "20px"}} 
             onClick={()=>dodaj(rec.id)}> DODAJ </button>
             :
-            <button className="btn btn-danger" onClick={()=>izbaci(rec.id)}>IZBACI</button>
+            <button className="btn btn-danger" style = {{border:"rgb(76, 131, 204)", borderStyle: "double", fontSize: "20px"}}  onClick={()=>izbaci(rec.id)}>IZBACI</button>
 
           }
         </div>
