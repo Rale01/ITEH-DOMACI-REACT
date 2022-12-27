@@ -7,12 +7,12 @@ function Recepti({recepti, kriterijum, dodaj}) {
         {
         kriterijum==""
         ?
-        recepti.map((rec)=> <div className="col-sm-3"><Recept  dodaj={dodaj} key={rec.id} rec={rec}></Recept><br /></div>)
+        recepti.map((rec)=> <div className="col-sm-3"><Recept  dodaj={dodaj} key={rec.id} rec={rec} mod={1}></Recept><br /></div>)
         :
         <>
         {recepti
         .filter((rec)=>rec.naziv.toLowerCase().includes(kriterijum.toLowerCase()))
-        .map((rec)=> <div className="col-sm-3"><Recept  dodaj={dodaj} key={rec.id} rec={rec}></Recept><br /></div>)}
+        .map((rec)=> <div className="col-sm-3"><Recept  dodaj={dodaj} key={rec.id} rec={rec} mod={1}></Recept><br /></div>)}
 
         </>
     }
