@@ -17,9 +17,20 @@
 	top: 0;
 }
 
-  
+
+
 .nav__title{
   margin: 0px 30px;
+  background-image:linear-gradient(to right, rgb(65, 168, 194), rgb(113, 250, 113) , white, rgb(7, 121, 13), rgb(113, 250, 113), rgb(65, 168, 194)); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: rainbow-animation 90s linear infinite;
+}
+
+@keyframes rainbow-animation {
+  to {
+      background-position: 4500vh;
+  }
 }
 
 .nav__item{
@@ -38,7 +49,7 @@ a{
 }
 
 img{
-  margin-left: -615px;
+  margin-left: -590px;
 }
 
 .nav input[type=text] {
@@ -182,5 +193,62 @@ h4{
     padding: 20px;
     background-color: transparent;
   }
+  .row{
+    padding: 3%;
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-between;
+  }
+
+  @keyframes animated-border {
+    0% {
+      box-shadow: 0 0 0 0 rgba(255,255,255,0.4);
+    }
+    100% {
+       box-shadow: 0 0 0 20px rgba(255,255,255,0);
+    }
+  }
+  .card-img-top{
+    border-radius: 10px;
+    animation: animated-border 1.5s infinite;
+    height: 350px;
+    width: 500px;
+    margin:40px;
+  }
+
+  .card{
+    background-image: url("https://wallpaperaccess.com/full/6240778.jpg");
+    padding: 12px;
+    border:rgb(43,41,78);
+    border-radius: 10px;
+    border-style: dashed;
+    inline-size: 600px;
+    overflow: hidden;
+  }
+
+  .card-text, .card-title{
+    color: white;
+  }
+
+  .card-title{
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: 'Caramel', cursive;
+  }
+
+  .card-text{
+    font-size: 15px;
+  }
+  .recepti{
+    background-image: url("https://img.freepik.com/premium-photo/tartar-with-salmon-avocado-wooden-background-top-view-copy-space_187166-20047.jpg?w=740");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+  }
+
+  
 
 
