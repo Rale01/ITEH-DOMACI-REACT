@@ -21,10 +21,10 @@
 
 .nav__title{
   margin: 0px 30px;
-  background-image:linear-gradient(to right, rgb(65, 168, 194), rgb(113, 250, 113) , white, rgb(7, 121, 13), rgb(113, 250, 113), rgb(65, 168, 194)); 
+  background-image:linear-gradient(to right, rgb(213, 239, 245), rgb(93, 173, 226) , rgb(213, 239, 245), rgb(90, 132, 247), rgb(93, 173, 226), rgb(213, 239, 245)); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
-  animation: rainbow-animation 90s linear infinite;
+  animation: rainbow-animation 200s linear infinite;
 }
 
 @keyframes rainbow-animation {
@@ -49,7 +49,7 @@ a{
 }
 
 img{
-  margin-left: -590px;
+  margin-left: -500px;
 }
 
 .nav input[type=text] {
@@ -219,6 +219,7 @@ h4{
   .card{
     background-image: url("https://wallpaperaccess.com/full/6240778.jpg");
     padding: 12px;
+    padding-bottom: 10px;
     border:rgb(43,41,78);
     border-radius: 10px;
     border-style: dashed;
@@ -231,13 +232,18 @@ h4{
   }
 
   .card-title{
+    text-align: center;
     font-size: 30px;
     letter-spacing: 5px;
     font-family: 'Caramel', cursive;
+    margin-top: -30px;
+    margin-bottom: -10px;
   }
 
   .card-text{
     font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
   }
   .recepti{
     background-image: url("https://img.freepik.com/premium-photo/tartar-with-salmon-avocado-wooden-background-top-view-copy-space_187166-20047.jpg?w=740");
