@@ -1,4 +1,4 @@
-import CopyButton from "./CopyButton"
+
 
 function Footer() {
   const telefon = "+381 068 9978960";
